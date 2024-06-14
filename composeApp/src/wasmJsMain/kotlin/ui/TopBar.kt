@@ -55,6 +55,7 @@ fun TopBar(onNavigationSelected: (WebStates) -> Unit) {
                 }
             }
         } else {
+            SideBarBool.value = false
             // Mostrar barra de navegación completa
             Box(
                 modifier = Modifier
